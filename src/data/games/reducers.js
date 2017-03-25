@@ -1,9 +1,10 @@
 import ADD_GAME from './actions';
+import List from 'immutable';
 
-const games = (state = [], action) => {
+const games = (state = List(), action) => {
   switch (action.type) {
     case ADD_GAME:
-      return Object.assign([], state, [game(state, action)]);
+      return state.push(game(state, action));
     default:
       return state;
   }
