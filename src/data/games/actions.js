@@ -1,3 +1,3 @@
-import {ADD_GAME} from './actionTypes';
+import {ADD_GAME} from './ActionTypes';
 
 export const addGame = (game) => ({type: ADD_GAME, payload: game});
