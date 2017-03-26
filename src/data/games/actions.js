@@ -1,8 +1,3 @@
 import {ADD_GAME} from './actionTypes';
 
-export const addGame = (game) => {
-  return {
-    type: ADD_GAME,
-    payload: game
-  };
-}
+export const addGame = (game) => ({type: ADD_GAME, payload: game});

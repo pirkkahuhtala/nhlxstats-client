@@ -1,4 +1,4 @@
-import {ADD_GAME} from './actionTypes';
+import {ADD_GAME} from './ActionTypes';
 import {addGame} from './actions';
 
 describe('actions', () => {

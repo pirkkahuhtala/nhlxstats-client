@@ -1,5 +1,5 @@
 import List from 'immutable';
-import {ADD_GAME} from './actionTypes';
+import {ADD_GAME} from './ActionTypes';
 
 const games = (state = List(), action) => {
   switch (action.type) {
