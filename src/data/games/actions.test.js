@@ -1,4 +1,5 @@
-import {addGame, ADD_GAME} from './actions';
+import {ADD_GAME} from './actionTypes';
+import {addGame} from './actions';
 
 describe('actions', () => {
   it('should return ADD_GAME action object', () => {

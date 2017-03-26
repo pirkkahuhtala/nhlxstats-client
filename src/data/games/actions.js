@@ -1,4 +1,4 @@
-export const ADD_GAME = 'addGame';
+import {ADD_GAME} from './actionTypes';
 
 export const addGame = (game) => {
   return {
